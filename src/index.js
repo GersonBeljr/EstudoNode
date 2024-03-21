@@ -83,7 +83,7 @@ async function pegaArquivo(caminhoDoArquivo){
     } catch (erro) {
         trataErro(erro);
     } finally {
-        console.log(chalk.magenta('Operação concluída'));
+        console.log(chalk.magenta('Arquivos Obtidos'));
     }
 
 }
